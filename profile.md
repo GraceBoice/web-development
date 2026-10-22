@@ -10,8 +10,9 @@ I used to think web design was ~~just picking colors and fonts~~, but I'm learni
 
 I enjoy creative projects, learning new skills, and seeing how small changes can improve a design. This semester, I'm practicing `HTML`, `CSS`, Markdown, and GitHub.
 
-![My profile photo](profile-photo.jpg)
+![My profile photo](github-profile-files%20(2)/profile-photo.jpg)
 
+ Copy
 ## Technical Background
 
 ### Tools and Skills I'm Learning
