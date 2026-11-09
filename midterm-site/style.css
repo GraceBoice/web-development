@@ -1,48 +1,81 @@
 
+/* my little website ♡ */
+
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #fff8f5;
-  color: #493b42;
+  background-color: #fff8f3;
+  color: #594653;
   font-family: Georgia, serif;
   margin: 0;
   line-height: 1.7;
 }
 
 header {
-  background-color: #f5dce4;
+  background-color: #f7dce5;
   text-align: center;
   padding: 45px 20px;
+  border-bottom: 3px dashed #d89eae;
 }
 
-h1 {
-  color: #9b6179;
-  font-size: 38px;
+header h1 {
+  font-size: 42px;
+  color: #965c78;
+  margin: 10px 0;
+  font-style: italic;
 }
 
-h2 {
-  color: #a36c83;
+header p {
+  margin: 5px;
 }
 
 nav {
   background-color: #fff0f4;
-  padding: 18px;
   text-align: center;
+  padding: 18px;
 }
 
 nav a {
-  color: #80566b;
-  margin: 0 12px;
+  display: inline-block;
+  background: white;
+  color: #965c78;
   text-decoration: none;
-  font-weight: bold;
+  padding: 8px 14px;
+  margin: 5px;
+  border: 1px solid #e5b5c5;
+  border-radius: 8px;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  background-color: #f7dce5;
 }
 
 main {
-  max-width: 800px;
-  margin: 40px auto;
-  padding: 20px;
+  background-color: white;
+  max-width: 850px;
+  margin: 35px auto;
+  padding: 35px;
+  border: 2px solid #f1d3dc;
+  border-radius: 12px;
+}
+
+h2 {
+  color: #a46581;
+  font-size: 28px;
+}
+
+h3 {
+  color: #a46581;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+  border: 8px solid #fff0f4;
+  border-radius: 8px;
+  margin: 12px 0;
 }
 
 .gallery {
@@ -51,27 +84,39 @@ main {
   gap: 20px;
 }
 
+.gallery div {
+  background: #fff5f7;
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #f1d3dc;
+  border-radius: 8px;
+}
+
 .gallery img {
   width: 100%;
   height: 250px;
   object-fit: cover;
-  border-radius: 12px;
 }
 
 footer {
-  background-color: #f5dce4;
   text-align: center;
-  padding: 20px;
-  margin-top: 40px;
+  padding: 25px;
+  color: #965c78;
+  font-size: 14px;
 }
 
 @media (max-width: 600px) {
+  header h1 {
+    font-size: 32px;
+  }
+
+  main {
+    margin: 15px;
+    padding: 20px;
+  }
+
   .gallery {
     grid-template-columns: 1fr;
   }
-
-  nav a {
-    display: inline-block;
-    margin: 8px;
-  }
 }
+
