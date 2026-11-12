@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Practice</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 10px;
+            font-family: Arial, sans-serif;
+        }
+
+        header, nav, footer {
+            background-color: #e5e5e5;
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 5px;
+        }
+
+        .columns {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 5px;
+        }
+
+        .content {
+            background-color: #e5e5e5;
+            flex: 1;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .main-content {
+            background-color: #e5e5e5;
+            flex: 4;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>Header</header>
+
+    <nav>Navigation Menu</nav>
+
+    <div class="columns">
+        <div class="content">Content</div>
+        <div class="main-content">Main Content</div>
+        <div class="content">Content</div>
+    </div>
+
+    <footer>Footer</footer>
+</body>
+</html>
